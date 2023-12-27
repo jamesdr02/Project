@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-2">
+
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" onkeyup="controllo()" required>
+                <button id="bottone" type="button" onclick="mostraPassword()"> <img
+                        src="../res/6351930_eye_password_see_view_icon.png" alt="eye" id="eye" width="10 vw" height="10 vh">
+                </button>
+            </div>
+
+            <div>
+                <img src="../res/8666595_x_icon.png" id="x1" alt="x" width="15 vw" height="15 vh">
+                <p id="p1">Lunghezza 8-20 caratteri</p>
+            </div>
+
+            <div>
+                <img src="../res/8666595_x_icon.png" id="x2" width="15 vw" height="15 vh" alt="x">
+                <p id="p2">Almeno una minuscola</p>
+            </div>
+
+            <div>
+                <img src="../res/8666595_x_icon.png" id="x3" width="15 vw" height="15vh" alt="x">
+                <p id="p3">Almeno una maiuscola</p>
+            </div>
+
+            <div>
+                <img src="../res/8666595_x_icon.png" id="x4" width="15 vw" height="15 vh" alt="x">
+                <p id="p4">Almeno un numero</p>
+            </div>
+
+            <div>
+                <img src="../res/8666595_x_icon.png" id="x5" width="15 vw" height="15 vh" alt="x">
+                <p id="p5">Almeno un carattere speciale tra @#$%!</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
+
