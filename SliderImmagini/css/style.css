@@ -1,0 +1,29 @@
+#slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444444;
+    height: 100vh;
+    
+   
+}
+
+#PREVIOUS{
+    display: flex;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#NEXT{
+    display: flex;
+    margin-right: 10%;
+    font-weight: bold;
+}
+
+
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
