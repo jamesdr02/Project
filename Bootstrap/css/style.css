@@ -1,0 +1,39 @@
+#img1,#titolo{
+    min-height: 30vh;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    font-weight: bolder;
+    padding: 0%;
+}
+
+
+p{
+    font-weight: normal;
+    text-align: justify;
+    font-size: medium;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#immagine{
+    height: 15vh;
+    width: 18%;
+    border: 1px solid black;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    margin-right: 3px;
+    font-weight: bolder;
+    font-size: small;
+    padding: 0%;
+   
+}
+
+#pf{
+    margin-top: 5%;
+}
+
+#developer{
+    margin-top: 3%;
+    font-weight: bolder;
+    padding: 3px;
+}
